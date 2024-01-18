@@ -18,10 +18,29 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
+  /* background: linear-gradient(
       to bottom,
       transparent,
       rgb(var(--background-end-rgb))
     )
-    rgb(var(--background-start-rgb));
+    rgb(var(--background-start-rgb)); */
+}
+nav,
+section {
+  width: 95vw;
+  max-width: 80rem;
+  margin: auto;
+}
+
+section {
+  width: 95vw;
+  max-width: 80rem;
+  margin: auto;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.HeroCardBg {
+  border-radius: 0.3125rem;
+  background: rgba(250, 249, 246, 0.15);
 }

@@ -1,3 +1,10 @@
+import Navbar from "./Components/Navbar.js";
+
 export default function Home() {
-  return <div>snxjsnsx</div>;
+  return (
+    <div>
+      <Navbar />
+      {/* <Hero /> */}
+    </div>
+  );
 }
