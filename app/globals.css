@@ -25,22 +25,30 @@ body {
     )
     rgb(var(--background-start-rgb)); */
 }
-nav,
-section {
+nav {
   width: 95vw;
   max-width: 80rem;
-  margin: auto;
+  margin: 0 auto;
 }
 
 section {
-  width: 95vw;
+  width: 90vw;
   max-width: 80rem;
-  margin: auto;
+  margin: 0 auto;
   margin-top: 5rem;
-  margin-bottom: 5rem;
 }
 
 .HeroCardBg {
   border-radius: 0.3125rem;
   background: rgba(250, 249, 246, 0.15);
+}
+
+.CoreService {
+  border-radius: 0.3125rem;
+  background: rgba(255, 127, 80, 0.15);
+}
+
+.manager {
+  border-radius: 0.3125rem;
+  background: rgba(255, 127, 80, 0.15);
 }
