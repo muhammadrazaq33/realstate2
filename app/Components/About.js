@@ -35,7 +35,7 @@ const About = () => {
       </div>
       {/* About Icons ----------.>*/}
       <div className="flex justify-between items-center gap-3">
-        {/* <AboutIconCards /> */}
+        <AboutIconCards />
       </div>
     </section>
   );

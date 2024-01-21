@@ -2,7 +2,7 @@ import React from "react";
 
 const Review = () => {
   return (
-    <section className="my-[5rem] flex flex-col gap-12">
+    <section className="flex flex-col gap-12">
       {/* Review Title -----------------> */}
       <div className="flex gap-3 items-center ">
         <img src="/Assets/TitleComma.svg" alt="" />
@@ -12,9 +12,12 @@ const Review = () => {
       </div>
       {/* Review CARDS  --------------------->*/}
       <div className="grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-8">
-        {[0, 1, 2].map((card) => {
+        {[0, 1, 2].map((card, index) => {
           return (
-            <article className="flex flex-col gap-4 px-[1.5rem] py-[1.25rem] shadow-md pb-[2.5rem]">
+            <article
+              key={index}
+              className="flex flex-col gap-4 px-[1.5rem] py-[1.25rem] shadow-md pb-[2.5rem]"
+            >
               <div className="flex justify-between items-center ">
                 <img src="/Assets/GoogleReview.png" alt="" />
                 <img src="/Assets/ReviewComma.svg" alt="" />

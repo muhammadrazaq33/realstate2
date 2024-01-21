@@ -21,8 +21,12 @@ const Navbar = () => {
           </div>
           {/* Links -------------->*/}
           <div className="lg:flex hidden items-center gap-8">
-            {Links.map((link) => {
-              return <p className="text-[#0E0E0E] text-[1rem]">{link}</p>;
+            {Links.map((link, index) => {
+              return (
+                <p key={index} className="text-[#0E0E0E] text-[1rem]">
+                  {link}
+                </p>
+              );
             })}
           </div>
           {/* Button */}

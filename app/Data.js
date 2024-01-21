@@ -15,6 +15,9 @@
 // );
 
 //Links
+
+export default data = {};
+
 export const Links = [
   "Home",
   "Services",
@@ -339,4 +342,22 @@ export const UCards = [
     img: "/Assets/image_9.png",
     text: "Furnish and Staging",
   },
+];
+
+//Footer Links
+export const FLinks = [
+  "Home",
+  "Services",
+  "Features",
+  "Cases",
+  "Insights",
+  "Contact",
+  "Book Free Consultation",
+];
+
+//Footer Downloads
+export const Downloads = [
+  "18 Types of Hidden Income from Australian Real Estate",
+  "Make Your House Earn an Extra $10,000 Each Year",
+  "18 Indicators You Must Consider Before Buying a House in Australia",
 ];

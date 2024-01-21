@@ -9,9 +9,9 @@ const Features = () => {
       </h1>
       {/* FeaTUrE carDS --------------> */}
       <div className="grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-x-8 gap-y-16">
-        {[0, 1, 2, 3, 4, 5].map((card) => {
+        {[0, 1, 2, 3, 4, 5].map((card, index) => {
           return (
-            <article className="flex flex-col gap-3">
+            <article key={index} className="flex flex-col gap-3">
               <img
                 src="/Assets/Feature_1.png"
                 alt=""
