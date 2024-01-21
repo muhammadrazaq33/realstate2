@@ -362,3 +362,16 @@ export const Downloads = [
   "Make Your House Earn an Extra $10,000 Each Year",
   "18 Indicators You Must Consider Before Buying a House in Australia",
 ];
+
+// Footer youtube Icon
+export const youtubeIcon = (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="30"
+    height="29"
+    viewBox="0 0 30 29"
+    fill="none"
+  >
+    <ellipse cx="15" cy="14.3193" rx="15" ry="14.3193" fill="#F5FAFF" />
+  </svg>
+);
