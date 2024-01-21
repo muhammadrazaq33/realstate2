@@ -16,7 +16,8 @@
 
 //Links
 
-export default data = {};
+const Data = {};
+export default Data;
 
 export const Links = [
   "Home",
