@@ -310,27 +310,27 @@ export const UCards = [
   },
   {
     id: 2,
-    img: "/Assets/image_3.png",
+    img: "/Assets/image_6.png",
     text: "Interior Painting",
   },
   {
     id: 3,
-    img: "/Assets/image_4.png",
+    img: "/Assets/image_8.png",
     text: "Upgrade Fixtures and Hardware",
   },
   {
     id: 4,
-    img: "/Assets/image_5.png",
+    img: "/Assets/image_2.png",
     text: "Kitchen and Bathroom Improvements ",
   },
   {
     id: 5,
-    img: "/Assets/image_6.png",
+    img: "/Assets/image_8.png",
     text: "Flooring",
   },
   {
     id: 6,
-    img: "/Assets/image_7.png",
+    img: "/Assets/image_9.png",
     text: "Maximize Space and Light",
   },
   {

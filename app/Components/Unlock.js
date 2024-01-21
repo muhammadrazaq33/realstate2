@@ -7,17 +7,17 @@ const Unlock = () => {
     <div className="bg-[#008080]">
       <section className="py-[5rem] flex flex-col gap-10">
         {/* Title --------> */}
-        <div className="sm:flex justify-between items-center">
-          <article className="flex flex-col gap-5 items-start">
+        <div className="md:flex justify-between items-start gap-8">
+          <article className="flex flex-col gap-6 md:gap-5 items-start">
             <button className="HeroCardBg py-[0.625rem] px-[1.25rem]">
               Value-Added Offerings
             </button>
-            <h3 className="text-[#FAF9F6] text-[2rem] font-normal max-w-[20rem]">
+            <h3 className="text-[#FAF9F6] text-[2rem] font-normal w-full max-w-[16rem] lg:max-w-[20rem]">
               Unlock Your Property Potential
             </h3>
           </article>
           <article>
-            <p className="text-[#FAF9F6] text-[0.825rem] max-w-[31rem] leading-[1.75rem]">
+            <p className="text-[#FAF9F6] lg:text-[1.1rem] md:text-[0.975rem] w-full lg:max-w-[31rem] md:max-w-[22rem] leading-[1.75rem] md:mt-0 mt-3">
               Proudly, we are more than just a basic property management agency;
               we are your strategic partner in real estate investment growth.
               With a focus on transforming properties to maximize returns, we

@@ -4,7 +4,7 @@ const UnlockCards = ({ UCards }) => {
   return (
     <>
       {UCards.map((card) => {
-        const [id, img, text] = card;
+        const { id, img, text } = card;
         return (
           <article
             key={id}
