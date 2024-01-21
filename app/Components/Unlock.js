@@ -5,7 +5,7 @@ import { UCards } from "../Data.js";
 const Unlock = () => {
   return (
     <div className="bg-[#008080]">
-      <section className="py-[5rem] flex flex-col gap-10">
+      <section className="py-[5rem] flex flex-col gap-12">
         {/* Title --------> */}
         <div className="md:flex justify-between items-start gap-8">
           <article className="flex flex-col gap-6 md:gap-5 items-start">
@@ -27,8 +27,8 @@ const Unlock = () => {
           </article>
         </div>
         {/* Unlock Cards --------------> */}
-        <div className="grid grid-cols-4 gap-4">
-          {/* <UnlockCards UCards={UCards} /> */}
+        <div className="w-full grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-x-3  gap-y-8">
+          <UnlockCards UCards={UCards} />
         </div>
       </section>
     </div>
