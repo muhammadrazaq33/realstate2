@@ -34,7 +34,7 @@ const About = () => {
         </article>
       </div>
       {/* About Icons ----------.>*/}
-      <div className="flex justify-between items-center gap-3">
+      <div className="grid lg:grid-cols-5 md:grid-cols-4 sm:grid-cols-3 grid-cols-2  gap-10 justify-items-center ">
         <AboutIconCards />
       </div>
     </section>
