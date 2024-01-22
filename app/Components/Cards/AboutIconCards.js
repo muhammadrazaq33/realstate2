@@ -12,7 +12,7 @@ const AboutIconCards = () => {
             key={Icon.id}
             className="flex flex-col gap-2 items-center mt-[4rem] "
           >
-            <p>{Icon.icon}</p>
+            <p className="animate-bounce">{Icon.icon}</p>
             <p className="text-[#0E0E0E] text-[1rem] font-medium text-center">
               {Icon.content}
             </p>
