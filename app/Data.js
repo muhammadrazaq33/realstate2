@@ -19,7 +19,7 @@
 const Data = {};
 export default Data;
 
-export const Links = [
+export const links = [
   "Home",
   "Services",
   "Features",
