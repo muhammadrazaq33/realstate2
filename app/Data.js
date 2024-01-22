@@ -402,3 +402,23 @@ export const ManagerCards = [
       "Want to organize the entire property investment portfolio to make it more profitable overall?",
   },
 ];
+
+// Manager Document
+export const ManagerDocument = [
+  {
+    id: 0,
+    image: "/Assets/document_1.svg",
+    content: "18 Types of Hidden Income from Australian Real Estate",
+  },
+  {
+    id: 1,
+    image: "/Assets/document_1.svg",
+    content: "Make Your House Earn an Extra $10,000 Each Year",
+  },
+  {
+    id: 2,
+    image: "/Assets/document_1.svg",
+    content:
+      "18 Indicators You Must Consider Before Buying a House in Australia",
+  },
+];

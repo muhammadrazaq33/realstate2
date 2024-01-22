@@ -1,7 +1,8 @@
 import React from "react";
-import { FaCheckCircle } from "react-icons/fa";
 import ManagerCard from "./Cards/ManagerCard";
 import { ManagerCards } from "../Data.js";
+import { ManagerDocument } from "../Data.js";
+import ManagerDocumentCards from "./Cards/ManagerDocumentCards";
 
 const Manager = () => {
   return (
@@ -14,73 +15,13 @@ const Manager = () => {
         <h1 className="text-[#0E0E0E] text-[2rem] font-normal">
           A Property Manager That Can Answer you…
         </h1>
+        {/* CARDS  ------------------------>*/}
         <div className="grid xl:grid-cols-3 lg:grid-cols-2 sm:grid-cols-3 grid-cols-2 gap-5 justify-items-start">
-          <article className="flex flex-col lg:gap-8 gap-6 shadow-md py-[1rem] px-[1.1rem] rounded-[0.35rem] max-w-[10rem]">
-            <img
-              src="/Assets/document_1.svg"
-              alt=""
-              className="w-[2rem] h-[2rem]"
-            />
-            <p className="text-[#008080] text-[0.825rem] underline">
-              18 Types of Hidden Income from Australian Real Estate
-            </p>
-          </article>
-          <article className="flex flex-col lg:gap-8 gap-6 shadow-md py-[1rem] px-[1.1rem] rounded-[0.35rem] max-w-[10rem]">
-            <img
-              src="/Assets/document_1.svg"
-              alt=""
-              className="w-[2rem] h-[2rem]"
-            />
-            <p className="text-[#008080] text-[0.825rem] underline">
-              Make Your House Earn an Extra $10,000 Each Year
-            </p>
-          </article>
-          <article className="flex flex-col  shadow-md py-[1rem] px-[1.1rem] rounded-[0.35rem] max-w-[10rem] lg:gap-8 gap-6">
-            <img
-              src="/Assets/document_1.svg"
-              alt=""
-              className="w-[2rem] h-[2rem]"
-            />
-            <p className="text-[#008080] text-[0.825rem] underline">
-              18 Indicators You Must Consider Before Buying a House in Australia
-            </p>
-          </article>
+          <ManagerDocumentCards ManagerDocument={ManagerDocument} />
         </div>
       </article>
       {/* right side ------------------> */}
       <article className="flex flex-col justify-center items-start">
-        {/* <div className="flex items-center justify-start lg:gap-2 gap-4 border-t-[1px] py-3 lg:py-6">
-          <FaCheckCircle className="text-[#008080] text-[2rem]" />
-          <p className="text-[#0E0E0E] text-[0.875rem] font-normal">
-            How to quickly enhance the property&apos;s value to refinance and
-            cash out?
-          </p>
-        </div>
-        <div className="flex items-center justify-start lg:gap-2 gap-4 border-t-[1px] py-3 lg:py-6">
-          <FaCheckCircle className="text-[#008080] text-[2rem]" />
-          <p className="text-[#0E0E0E] text-[0.875rem] font-normal">
-            Are there any other hidden ways to make money from my house?
-          </p>
-        </div>
-        <div className="flex items-center justify-start lg:gap-2 gap-4 border-t-[1px] py-3 lg:py-6">
-          <FaCheckCircle className="text-[#008080] text-[2rem]" />
-          <p className="text-[#0E0E0E] text-[0.875rem] font-normal">
-            Is now a good time to buy a property?
-          </p>
-        </div>
-        <div className="flex items-center justify-start lg:gap-2 gap-4 border-t-[1px] py-3 lg:py-6">
-          <FaCheckCircle className="text-[#008080] text-[2rem]" />
-          <p className="text-[#0E0E0E] text-[0.875rem] font-normal">
-            Planning to sell the house and hoping to sell it at a better price?
-          </p>
-        </div>
-        <div className="flex items-center justify-start lg:gap-2 gap-4 border-t-[1px] py-3 lg:py-6">
-          <FaCheckCircle className="text-[#008080] text-[2rem]" />
-          <p className="text-[#0E0E0E] text-[0.875rem] font-normal">
-            Want to organize the entire property investment portfolio to make it
-            more profitable overall?
-          </p>
-        </div> */}
         <ManagerCard ManagerCards={ManagerCards} />
       </article>
     </section>
