@@ -1,5 +1,7 @@
 import React from "react";
 import { FaCheckCircle } from "react-icons/fa";
+import ManagerCard from "./Cards/ManagerCard";
+import { ManagerCards } from "../Data.js";
 
 const Manager = () => {
   return (
@@ -47,7 +49,7 @@ const Manager = () => {
       </article>
       {/* right side ------------------> */}
       <article className="flex flex-col justify-center items-start">
-        <div className="flex items-center justify-start lg:gap-2 gap-4 border-t-[1px] py-3 lg:py-6">
+        {/* <div className="flex items-center justify-start lg:gap-2 gap-4 border-t-[1px] py-3 lg:py-6">
           <FaCheckCircle className="text-[#008080] text-[2rem]" />
           <p className="text-[#0E0E0E] text-[0.875rem] font-normal">
             How to quickly enhance the property&apos;s value to refinance and
@@ -78,7 +80,8 @@ const Manager = () => {
             Want to organize the entire property investment portfolio to make it
             more profitable overall?
           </p>
-        </div>
+        </div> */}
+        <ManagerCard ManagerCards={ManagerCards} />
       </article>
     </section>
   );

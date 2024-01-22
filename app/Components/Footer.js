@@ -47,7 +47,7 @@ const Footer = () => {
                   return (
                     <p
                       key={index}
-                      className="text-[#FAF9F6] text-[1rem] w-full lg:max-w-[15rem] md:max-w-[8rem] max-w-[20rem]"
+                      className="text-[#FAF9F6] text-[1rem] w-full lg:max-w-[15rem] md:max-w-[8rem] max-w-[20rem] hover:underline"
                     >
                       {Flink}
                     </p>
@@ -63,7 +63,7 @@ const Footer = () => {
                   return (
                     <p
                       key={index}
-                      className=" lg:max-w-[20rem] md:max-w-[15rem] max-w-[25rem] w-full  text-[#FAF9F6] text-[1rem]"
+                      className=" lg:max-w-[20rem] md:max-w-[15rem] max-w-[25rem] w-full  text-[#FAF9F6] text-[1rem] hover:underline"
                     >
                       {Download}
                     </p>

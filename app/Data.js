@@ -375,3 +375,30 @@ export const youtubeIcon = (
     <ellipse cx="15" cy="14.3193" rx="15" ry="14.3193" fill="#F5FAFF" />
   </svg>
 );
+
+/// Manager Card
+export const ManagerCards = [
+  {
+    id: 0,
+    content:
+      "How to quickly enhance the property's value to refinance and cash out?",
+  },
+  {
+    id: 1,
+    content: "Are there any other hidden ways to make money from my house?",
+  },
+  {
+    id: 0,
+    content: "Is now a good time to buy a property?",
+  },
+  {
+    id: 0,
+    content:
+      "Planning to sell the house and hoping to sell it at a better price?",
+  },
+  {
+    id: 0,
+    content:
+      "Want to organize the entire property investment portfolio to make it more profitable overall?",
+  },
+];

@@ -9,7 +9,7 @@ const About = () => {
       <div className="grid lg:grid-cols-2 grid-cols-1 gap-5">
         {/* About Info ------> */}
         <article className="flex flex-col gap-7 items-start justify-center">
-          <button className="CoreService text-[#FF7F50] font-normal px-[1.25rem] py-[0.625rem]">
+          <button className="CoreService text-[#FF7F50] font-normal px-[1.25rem] py-[0.625rem] hover:text-[#008080]">
             Our Core Services
           </button>
           <h1 className="text-[2rem] font-normal text-[#0E0E0E]">

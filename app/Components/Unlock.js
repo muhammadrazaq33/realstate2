@@ -9,7 +9,7 @@ const Unlock = () => {
         {/* Title --------> */}
         <div className="md:flex justify-between items-start gap-8">
           <article className="flex flex-col gap-6 md:gap-5 items-start">
-            <button className="HeroCardBg py-[0.625rem] px-[1.25rem]">
+            <button className="HeroCardBg py-[0.625rem] px-[1.25rem] hover:text-[#008080] hover:bg-[white]">
               Value-Added Offerings
             </button>
             <h3 className="text-[#FAF9F6] text-[2rem] font-normal w-full max-w-[16rem] lg:max-w-[20rem]">
