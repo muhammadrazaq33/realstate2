@@ -6,16 +6,16 @@ const About = () => {
   return (
     <section className="">
       {/* About Us ----------> */}
-      <div className="grid lg:grid-cols-2 grid-cols-1 gap-5">
+      <div className="grid lg:grid-cols-2 grid-cols-1 gap-5 gap-y-[2rem]">
         {/* About Info ------> */}
-        <article className="flex flex-col gap-7 items-start justify-center">
+        <article className="flex flex-col lg:gap-7 gap-6 items-start justify-center">
           <button className="CoreService text-[#FF7F50] font-normal px-[1.25rem] py-[0.625rem] hover:text-[#008080]">
             Our Core Services
           </button>
-          <h1 className="text-[2rem] font-normal text-[#0E0E0E]">
+          <h1 className="text-[2rem] font-normal text-[#0E0E0E] lg:max-w-[31rem] max-w-[15rem] ">
             Reliable Property Care
           </h1>
-          <p className="text-[1rem] text-[#0E0E0E] font-normal lg:max-w-[35rem]">
+          <p className="text-[1rem] text-[#0E0E0E] font-normal xl:max-w-[35rem] lg:max-w-[30rem] max-w-[50rem]">
             At JJA Investment, our team is composed of seasoned professionals
             who are experts in the various facets of property management. From
             tenant relations and legal compliance to maintenance and financial
@@ -25,16 +25,17 @@ const About = () => {
           <Button color={"bg-[#008080]"}>Book Free Consultation</Button>
         </article>
         {/* About Video ------> */}
-        <article className="">
-          <img
-            src="/Assets/image_1.png"
-            alt=""
-            className="lg:w-[34rem] w-full  object-cover"
-          />
-        </article>
+        <iframe
+          // width="560"
+          // height="315"
+          src="https://youtu.be/7EHnQ0VM4KY?si=TEffbCNVVzkkBYw1"
+          frameborder="0"
+          allowfullscreen
+          className="max-w-[800px] w-full mx-auto h-[24rem]"
+        ></iframe>
       </div>
       {/* About Icons ----------.>*/}
-      <div className="grid lg:grid-cols-5 md:grid-cols-4 sm:grid-cols-3 grid-cols-2  gap-10 justify-items-center ">
+      <div className="grid lg:grid-cols-5 md:grid-cols-4 sm:grid-cols-3 grid-cols-2  gap-10 justify-items-center mt-[2rem]">
         <AboutIconCards />
       </div>
     </section>
