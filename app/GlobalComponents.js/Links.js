@@ -8,7 +8,7 @@ const Links = ({ links }) => {
           <div>
             <p
               key={index}
-              className="text-[#0E0E0E] text-[1rem] hover:text-[#267777]"
+              className="text-[#0E0E0E] text-[1rem] hover:text-[#267777] cursor-pointer"
             >
               {link}
             </p>

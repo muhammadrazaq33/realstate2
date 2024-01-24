@@ -25,11 +25,21 @@ const About = () => {
           <Button color={"bg-[#008080]"}>Book Free Consultation</Button>
         </article>
         {/* About Video ------> */}
+        {/* <iframe
+          // width="560"
+          // height="315"
+          src="https://youtu.be/7EHnQ0VM4KY?si=J6GFuyQBki9UH6Ko"
+          frameborder="0"
+          allowfullscreen
+          className="max-w-[800px] w-full mx-auto h-[24rem]"
+        ></iframe> */}
         <iframe
           // width="560"
           // height="315"
-          src="https://youtu.be/7EHnQ0VM4KY?si=TEffbCNVVzkkBYw1"
+          src="https://www.youtube.com/embed/7EHnQ0VM4KY?si=LtrXq2i2uzzHChqw"
+          title="YouTube video player"
           frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowfullscreen
           className="max-w-[800px] w-full mx-auto h-[24rem]"
         ></iframe>

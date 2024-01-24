@@ -20,7 +20,7 @@ const Navbar = () => {
               alt=""
               className="w-[2.5rem] h-[2.5rem]"
             />
-            <p className="text-[#0E0E0E] text-[1.25rem] font-normal">
+            <p className="text-[#0E0E0E] text-[1.25rem] font-normal cursor-pointer">
               JJA Investment
             </p>
           </div>
@@ -30,7 +30,7 @@ const Navbar = () => {
           </div>
           {/* Button */}
           <div className="lg:block hidden">
-            <Button color={"bg-[#008080]"}>Free Consaltation</Button>
+            <Button color={"bg-[#008080]"}>Free Consultation</Button>
           </div>
           {/* menu */}
           <GiHamburgerMenu
@@ -39,7 +39,7 @@ const Navbar = () => {
           />
         </div>
         {/* <Hero /> */}
-        {/* hamgurger for small screen ---------> */}
+        {/* hamburger for small screen ---------> */}
         {ShowSidebar && (
           <div className="flex flex-col lg:hidden items-center gap-8 h-screen w-full max-w-[30rem] fixed right-0 top-0 bg-[#d2dfdf] py-[2rem] px-[2rem] backdrop-blur-3xl">
             <button
