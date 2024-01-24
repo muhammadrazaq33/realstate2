@@ -12,13 +12,13 @@ export default function Home() {
   return (
     <div>
       <Navbar />
-      {/* <Hero /> */}
+      <Hero />
       <About />
       <Unlock />
       <Manager />
       <Features />
       <Review />
-      {/* <QuestionAnswer /> */}
+      <QuestionAnswer />
       <Footer />
     </div>
   );

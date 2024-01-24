@@ -2,7 +2,7 @@ import React from "react";
 
 const QuestionAnswer = () => {
   return (
-    <section className="border-[3px] border-black w-full h-auto my-[6rem]">
+    <section className="w-full h-auto my-[6rem]">
       {/* Image ------------------> */}
       <div className="bg-[url('/Assets/QuestionImg.png')] object-fill bg-no-repeat bg-right h-[40rem] relative -z-20">
         {/* Data -------------> */}

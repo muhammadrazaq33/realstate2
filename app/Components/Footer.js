@@ -8,7 +8,7 @@ import { youtubeIcon } from "../Data.js";
 
 const Footer = () => {
   return (
-    <div className="bg-[#008080]">
+    <div className="bg-[#008080] mt-[8rem]">
       <section className="pt-[4rem] ">
         <div className="md:flex justify-between items-start">
           {/* Left side------------> */}
