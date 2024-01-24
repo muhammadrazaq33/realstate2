@@ -3,13 +3,10 @@ import React from "react";
 const Links = ({ links }) => {
   return (
     <>
-      {links.map((link, index) => {
+      {links.map((index, link) => {
         return (
-          <div>
-            <p
-              key={index}
-              className="text-[#0E0E0E] text-[1rem] hover:text-[#267777] cursor-pointer"
-            >
+          <div key={index}>
+            <p className="text-[#0E0E0E] text-[1rem] hover:text-[#267777] cursor-pointer">
               {link}
             </p>
           </div>
